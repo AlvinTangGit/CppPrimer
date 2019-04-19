@@ -1,8 +1,6 @@
 #include <iostream>
 using std::cin; using std::cout; using std::endl;
 using std::string;
-using std::begin;
-using std::end;
 int main(){
     string inStr, preStr;
 	int cnt = 0, cntMax = 0;
