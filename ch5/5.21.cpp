@@ -9,6 +9,9 @@ int main(){
     bool _repeat = false;
     vector<string> restore;
     while(std::cin >> str && !str.empty()){
+        if(str[0] != '_'){
+            continue;
+        }
         for(string i : restore){
             if(i == str){
                 _repeat = true;
