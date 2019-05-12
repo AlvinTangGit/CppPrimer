@@ -11,6 +11,7 @@ int sumInitList(initializer_list<int> paras){
 
 int main(){
     initializer_list<int> paras{0, 1,2,3,4,5};
+    
     sumInitList(paras);
     return 0;
 }
